@@ -39,14 +39,14 @@ public class CPersona {
     public void agregarPersona(@RequestBody Persona pers){
         persoServ.crearPersona(pers);
     }
-    
+
     @DeleteMapping("/borrar/{id}")  //métedo Delete "borrame esta id"
     public void eliminarPersona(@PathVariable int id){
         persoServ.borrarPersona(id);
     }
      
-    @PutMapping("/actualizar")   //al tener @RequestBody para actualizar datos en postman hay que agregar todos los datos en el json incluido el id 
-    public void updatePersona(@RequestBody Persona pers){  
+    @PutMapping("/actualizar/{id}")   //al tener solo el @RequestBody para actualizar datos en postman hay que agregar todos los datos en el json incluido el id 
+    public void updatePersona(@PathVariable("id") int id, @RequestBody Persona pers){  
         persoServ.editarPersona(pers);
     }
 }

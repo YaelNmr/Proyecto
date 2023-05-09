@@ -45,8 +45,8 @@ public class CEstudio {
         estServ.borrarEstudio(id);
     }
     
-    @PutMapping("/actualizar") 
-    public void updateEstudio(@RequestBody Estudio est){  
+    @PutMapping("/actualizar/{id}") 
+    public void updateEstudio(@PathVariable("id") int id, @RequestBody Estudio est){  
         estServ.editarEstudio(est);
     }        
 }
