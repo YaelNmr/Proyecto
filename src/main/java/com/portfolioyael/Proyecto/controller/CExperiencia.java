@@ -45,8 +45,8 @@ public class CExperiencia {
         expServ.borrarExperiencia(id);
     }
     
-    @PutMapping("/actualizar") 
-    public void updateExperiencia(@RequestBody Experiencia exp){  
+    @PutMapping("/actualizar/{id}") 
+    public void updateExperiencia(@PathVariable("id") int id, @RequestBody Experiencia exp){  
         expServ.editarExperiencia(exp);
     }  
 }

@@ -45,8 +45,8 @@ public class CHabilidad {
         habServ.borrarHabilidad(id);
     }
      
-    @PutMapping("/actualizar")   
-    public void updateHabilidad(@RequestBody Habilidad hab){  
+    @PutMapping("/actualizar/{id}")   
+    public void updateHabilidad(@PathVariable("id") int id, @RequestBody Habilidad hab){  
         habServ.editarHabilidad(hab);
     }
 }

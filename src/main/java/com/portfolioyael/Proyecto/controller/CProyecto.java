@@ -45,8 +45,8 @@ public class CProyecto {
         proyeServ.borrarProyecto(id);
     }
      
-    @PutMapping("/actualizar")   
-    public void updateProyecto(@RequestBody Proyecto pro){  
+    @PutMapping("/actualizar/{id}")   
+    public void updateProyecto(@PathVariable("id") int id, @RequestBody Proyecto pro){  
         proyeServ.editarProyecto(pro);
     } 
 }
