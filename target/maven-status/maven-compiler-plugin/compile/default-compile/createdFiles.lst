@@ -20,6 +20,7 @@ com\portfolioyael\Proyecto\entity\Habilidad.class
 com\portfolioyael\Proyecto\Security\Dto\LoginUsuario.class
 com\portfolioyael\Proyecto\service\SProyecto.class
 com\portfolioyael\Proyecto\Security\MainSecurity.class
+com\portfolioyael\Proyecto\WebConfig.class
 com\portfolioyael\Proyecto\controller\CEstudio.class
 com\portfolioyael\Proyecto\controller\CPersona.class
 com\portfolioyael\Proyecto\Security\Service\RolService.class
