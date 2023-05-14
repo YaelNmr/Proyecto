@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.portfolioyael.Proyecto.ProyectoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.623 s - in com.portfolioyael.Proyecto.ProyectoApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.152 s - in com.portfolioyael.Proyecto.ProyectoApplicationTests
