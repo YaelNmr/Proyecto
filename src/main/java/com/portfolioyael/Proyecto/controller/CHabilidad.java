@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("habilidad")  //localhost:8080/habilidad
+@RequestMapping("/habilidad")  //localhost:8080/habilidad
 @CrossOrigin(origins = {"https://portfolio-frontend-yael.web.app/"})  //localhost:4200
 public class CHabilidad {
     
