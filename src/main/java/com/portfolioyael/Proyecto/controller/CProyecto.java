@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("proyecto")  //localhost:8080/proyecto
+@RequestMapping("/proyecto")  //localhost:8080/proyecto
 @CrossOrigin(origins = {"https://portfolio-frontend-yael.web.app/"})  //localhost:4200
 public class CProyecto {
     
