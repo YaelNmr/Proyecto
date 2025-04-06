@@ -46,8 +46,10 @@ public class MainSecurity {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.cors().and().csrf().disable()
-                .exceptionHandling().authenticationEntryPoint(jwtEntryPoint).and()
-                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
+                .exceptionHandling().authenticationEntryPoint(jwtEntryPoint)
+                .and()
+                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+                .and()
                 .authorizeHttpRequests()
                 .requestMatchers("/auth/**").permitAll()
                 .anyRequest().authenticated();
