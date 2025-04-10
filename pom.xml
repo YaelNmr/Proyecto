@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.1</version>
+        <version>3.4.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.portfolioyael</groupId>
@@ -14,9 +14,9 @@
     <name>Proyecto</name>
     <description>Proyecto Final Integrador Arg Programa</description>
     <properties>
-        <java.version>20</java.version>
+        <java.version>24</java.version>
     </properties>
-     <dependencies>
+<dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -67,11 +67,7 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.12.0</version>
         </dependency>
-<dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-core</artifactId>
-    <version>5.0.7.Final</version>
-</dependency>
+
         <!-- corrigiendo el error de javax -->  
         <dependency>
             <groupId>javax.xml.bind</groupId>
