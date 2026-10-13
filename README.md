@@ -1,7 +1,8 @@
 # Proyecto Final Integrador — Backend
 
-Backend desarrollado como parte del Proyecto Final Integrador de Argentina Programa.
+Backend del Proyecto Final Integrador de Argentina Programa 4ta Edición (#YoProgramo).
 
+Este proyecto fue desarrollado durante mi formación en desarrollo web Full Stack entre 2022 y 2023.
 La aplicación permite administrar la información del portfolio mediante una API REST y ofrece autenticación para las operaciones que lo requieren.
 
 ## Tecnologías utilizadas
@@ -53,7 +54,7 @@ La configuración de producción utiliza variables de entorno para conectarse a 
 
 ## Proyecto académico
 
-Este backend forma parte del Proyecto Final Integrador de Argentina Programa y representa la etapa inicial de mi formación y práctica en desarrollo web full stack.
+Este repositorio forma parte de mi recorrido de aprendizaje y representa el inicio de mi formación como desarrolladora Full Stack.
 
 ---
 
