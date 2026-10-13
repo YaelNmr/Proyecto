@@ -58,6 +58,14 @@ Este repositorio forma parte de mi recorrido de aprendizaje y representa el inic
 
 ---
 
-**Autor:** Yael Nemer
+## 👩‍💻 Autora
 
-**Repositorio:** [Proyecto — GitHub](https://github.com/YaelNmr/Proyecto)
+**Yael Nmr**
+
+Desarrolladora Web & Indie Game Developer
+
+GitHub:
+https://github.com/YaelNmr
+
+LinkedIn:
+https://www.linkedin.com/in/yael-nemer
